@@ -22,5 +22,5 @@ const UserSchema = new Schema({
 // If not then we use the model function to define the model as we would for a regular server
 // This is extra complexity due to the serverless opperation of the next.js backend
 
-const User = models.user || model("User", UserSchema);
+const User = models.User || model("User", UserSchema);
 export default User
