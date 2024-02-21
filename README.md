@@ -69,6 +69,14 @@ npm run dev
 
 Navigate to http://localhost:3000 to view the application.
 
+## To-do / Next Features
+[] Implement Search
+  -Search by prompt
+  -Search by tag
+  -Search by username
+[] Implement Click on tag
+[] Implement View other profiles
+
 ## Deployment on Vercel
 
 The AI Prompt Sharing Platform is deployed on Vercel, a cloud platform for static sites and Serverless Functions that fits perfectly with Next.js projects. Vercel simplifies the deployment process, automatically builds your project, and serves it globally with minimal configuration.
