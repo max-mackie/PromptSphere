@@ -8,6 +8,7 @@ Welcome to my AI Prompt Sharing Platform, built with Next.js, MongoDB, NextAuth,
 - [Technology Stack](#technology-stack)
 - [Features](#features)
 - [Getting Started](#getting-started).
+- - [To-do / Next Features](#to-do--next-features).
 - [Deployment on Vercel](#deployment-on-vercel)
 - [Resources and Links](#links)
 
@@ -70,12 +71,12 @@ npm run dev
 Navigate to http://localhost:3000 to view the application.
 
 ## To-do / Next Features
-[] Implement Search
-  -Search by prompt
-  -Search by tag
-  -Search by username
-[] Implement Click on tag
-[] Implement View other profiles
+- [ ] Implement Search
+  - Search by prompt
+  - Search by tag
+  - Search by username
+- [ ] Implement Click on tag
+- [ ] Implement View other profiles
 
 ## Deployment on Vercel
 
