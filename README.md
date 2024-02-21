@@ -7,10 +7,9 @@ Welcome to my AI Prompt Sharing Platform, built with Next.js, MongoDB, NextAuth,
 - [Introduction](#introduction)
 - [Technology Stack](#technology-stack)
 - [Features](#features)
-- [Getting Started](#getting-started)
+- [Deployment on Vercel](#deployment-on-vercel)
 - [Useful Code Snippets](#snippets)
 - [Resources and Links](#links)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
