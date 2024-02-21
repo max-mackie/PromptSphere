@@ -8,9 +8,9 @@ import Form from "@components/Form";
 
 const UpdatePrompt = () => {
   const router = useRouter();
-  //   const searchParams = useSearchParams();
-  //   const promptId = searchParams.get("id");
-  const promptId = router.query?.id;
+  const searchParams = useSearchParams();
+  const promptId = searchParams.get("id");
+  //   const promptId = router.query?.id;
 
   const [submitting, setSubmitting] = useState(false);
   const [post, setPost] = useState({ prompt: "", tag: "" });
@@ -53,16 +53,22 @@ const UpdatePrompt = () => {
   };
 
   return (
+    <Form
+      type="Edit"
+      post={post}
+      setPost={setPost}
+      submitting={submitting}
+      handleSubmit={updatePrompt}
+    />
+  );
+};
+
+const Page = () => {
+  return (
     <Suspense fallback={<div>Loading...</div>}>
-      <Form
-        type="Edit"
-        post={post}
-        setPost={setPost}
-        submitting={submitting}
-        handleSubmit={updatePrompt}
-      />
+      <UpdatePrompt />
     </Suspense>
   );
 };
 
-export default UpdatePrompt;
+export default Page;
